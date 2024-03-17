@@ -40,7 +40,7 @@
 
 
 <header class="container-fluid smallpage-bg">
-    <div class="container">
+ 
     
 
 
@@ -52,24 +52,10 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="buttonTitle" title="Title">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PROJECTS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CV</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-          </ul>
-        </div>
+<?php
+
+?>
+
       </nav>
 <div class="smallpage-tag">
       <h1 class="smallpage-title">Projects</h1>
