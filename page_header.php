@@ -39,11 +39,9 @@
 
 
 
-<header class="container-fluid smallpage-bg">
+<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
  
     
-
-
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange"> WHITKIN</span></a>
@@ -58,10 +56,7 @@
 
       </nav>
 <div class="smallpage-tag">
-      <h1 class="smallpage-title">Projects</h1>
-    </div>
-
-    </div> <!-- container -->
-
-    <?php wp_head(); ?>
-    </header>
+<h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1>
+</div><!-- container-->
+<?php wp_head(); ?>
+</header>
