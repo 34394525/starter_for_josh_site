@@ -11,7 +11,7 @@ Template Name: Projects
             <section class="maintext">
             <?php 
 $args = array(
-  'category_name' =>  'Projects',
+  'category_name' =>  'Projects'
  // 'posts_per_page'    =>   1
 );
 // the query
@@ -30,8 +30,9 @@ $the_query = new WP_Query( $args ); ?>
                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail('thumbnail');
                 } ?>
-<p class="about-text"><?php the_excerpt(); ?></p></div>
+<p class="about-text"><?php the_excerpt(); ?></p>
     <a class="readmore" href="<?php the_permalink(); ?>"> CONTINUE READING</a>
+    </div>
 <?php endwhile; ?>
     <!-- end of the loop -->
  
@@ -48,4 +49,4 @@ $the_query = new WP_Query( $args ); ?>
      </div>
     </div>
   </div>
-<?php get_footer(); ?>
+<?php get_footer();?>
