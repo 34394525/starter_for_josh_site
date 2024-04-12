@@ -54,8 +54,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
       
-        <?php 
-
+        <?php
 wp_nav_menu( array(
   'theme_location'  => 'primary',
   'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
