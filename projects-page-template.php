@@ -11,7 +11,7 @@ Template Name: Projects
             <section class="maintext">
             <?php 
 $args = array(
-  'category_name' =>  'Projects'
+  'category_name' =>  'Projects',
  // 'posts_per_page'    =>   1
 );
 // the query
