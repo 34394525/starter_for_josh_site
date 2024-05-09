@@ -43,8 +43,7 @@ I always tell a story.</p>
            <a class="readmore" href="#"> CONTINUE READING </a>
              
               </div>
-
-
+              <?php depicter(1); ?>
 </div> <!-- row -->
 </div> <!-- container -->
 </section>
